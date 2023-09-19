@@ -10,3 +10,7 @@ Another method is to clone a repository from github
    cd googletest 
    cmake -Bbuild
    cmake --buil build
+
+To run the test without CMakelist.txt
+   g++ main.cpp -lgtest -lgtest_main -pthread
+   ./a.out
