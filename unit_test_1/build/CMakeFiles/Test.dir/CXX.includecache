@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jakinboy/projects-2/gtest_work/main.cpp
+/home/jakinboy/projects-2/gtest_work/unit_test_1/main.cpp
 iostream
 -
 gtest/gtest.h

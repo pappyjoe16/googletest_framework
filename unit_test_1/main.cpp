@@ -3,15 +3,16 @@
 
 using namespace std;
 
-int add(int a, int b){
-    return a + b;
-}
+TEST(add, subtest_1){
+    //Arrange
+    int value = 100;
+    int increment = 5;
 
-TEST(add, positive){
-    ASSERT_EQ(12, add(7,5));
-}
-TEST(add, negative){
-    ASSERT_EQ(-13, add(-8, -5));
+    //Act
+    value = value + increment;
+
+    //Assert
+    ASSERT_EQ(value, 105);
 }
 
 int main(int argc, char** argv){

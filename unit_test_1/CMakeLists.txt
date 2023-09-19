@@ -9,4 +9,4 @@ target_link_libraries(Test GTest::GTest GTest::Main pthread)
 
 enable_testing()
 
-add_test(add a.out)
+add_test(add Test)
