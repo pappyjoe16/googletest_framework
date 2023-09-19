@@ -3,4 +3,4 @@ INSTRUCTION ON HOW TO INSTALL gtest (googletest)
    repository in /usr/src
 2. To compile "sudo cmake -Bbuild"
 3. To build the google test framework "sudo cmake --build build"
-4. 
+ 
