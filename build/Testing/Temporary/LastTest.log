@@ -1,0 +1,19 @@
+Start testing: Sep 20 00:03 CEST
+----------------------------------------------------------
+Unable to find executable: a.out
+1/1 Testing: add
+1/1 Test: add
+Command: ""
+Directory: /home/jakinboy/projects-2/gtest_work/build
+"add" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"add" end time: Sep 20 00:03 CEST
+"add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 20 00:03 CEST
