@@ -34,3 +34,8 @@ NSTRUCTIONS TO BUILD A TEST TO ASSERT TWO NUMBER
     enable_testing()
 
     add_test(add Test)
+
+3. Run the test e.g
+    cmake -Bbuild # this will compile the test
+    cmake --build build # this will build the test
+    ./Test or ./a.out # this will run the test
