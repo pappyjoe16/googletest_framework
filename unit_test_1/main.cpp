@@ -3,7 +3,7 @@
 
 using namespace std;
 
-TEST(add, subtest_1){
+TEST(add, increment_by_5){
     //Arrange
     int value = 100;
     int increment = 5;
@@ -13,6 +13,18 @@ TEST(add, subtest_1){
 
     //Assert
     ASSERT_EQ(value, 105);
+}
+
+TEST(add, increment_by_10){
+    //Arrange
+    int value = 100;
+    int increment = 10;
+
+    //Act
+    value = value + increment;
+
+    //Assert
+    ASSERT_EQ(value, 110);
 }
 
 int main(int argc, char** argv){
