@@ -1,0 +1,4 @@
+/home/jakinboy/projects-2/gtest_work/build/CMakeFiles/rebuild_cache.dir
+/home/jakinboy/projects-2/gtest_work/build/CMakeFiles/edit_cache.dir
+/home/jakinboy/projects-2/gtest_work/build/CMakeFiles/test.dir
+/home/jakinboy/projects-2/gtest_work/build/CMakeFiles/Test.dir
