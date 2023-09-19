@@ -79,8 +79,8 @@ Test_EXTERNAL_OBJECTS =
 
 Test: CMakeFiles/Test.dir/main.cpp.o
 Test: CMakeFiles/Test.dir/build.make
-Test: /usr/lib/x86_64-linux-gnu/libgtest_main.a
-Test: /usr/lib/x86_64-linux-gnu/libgtest.a
+Test: /usr/local/lib/libgtest_main.a
+Test: /usr/local/lib/libgtest.a
 Test: CMakeFiles/Test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakinboy/projects-2/gtest_work/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
